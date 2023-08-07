@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #4287f5, #ff6f00);
+    /* You can adjust the gradient colors as per your preference */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+header h2 {
+   background-color: red;
+}
+
+header img {
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #fff;
+    background-color: #ff6f00;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.news-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;display: block;
+}
+
+.article {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+}
+
+.article-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
